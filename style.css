@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+  background-image: url("damon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 20%;
 }
 
 .container {
