@@ -4,51 +4,28 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 20%;
-  margin: 0;
 }
 
 .container {
   width: 400px;
   margin: 50px 20px 0 auto;
-  background-color: rgba(0, 0, 0, 0.6); /* fundo escuro pra destacar texto branco */
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-h1 {
-  text-align: center;
-}
-
-form {
-  display: flex;
-  gap: 5px;
-}
-
-input {
-  flex: 1;
-  padding: 8px;
-  border: none;
-  border-radius: 4px;
-}
-
-button {
-  padding: 8px;
-  cursor: pointer;
-  background-color: wheat;
-  border: none;
-  border-radius: 4px;
+  color: rgb(66, 66, 66);
 }
 
 ul {
-  margin-top: 15px;
-  background-color: wheat;
-  padding: 15px;
-  border-radius: 8px;
-  color: black;
+  margin-top: 10px;
+  background-color: rgb(241, 227, 200);
+  padding: 10px;
+}
+
+button {
+  padding: 5px;
+}
+
+input {
+  padding: 5px;
 }
 
 #mensagemErro {
-  color: lightcoral;
-  font-size: 14px;
+  color: rgb(247, 118, 118);
 }
